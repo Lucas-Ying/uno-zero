@@ -1,0 +1,24 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - content/themes/yno/assets/scss/vno.scss
+
+Backtrace:
+/Users/lucas/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:484:in `read'
+/Users/lucas/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
+/Users/lucas/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/lucas/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/lucas/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/lucas/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/lucas/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/lucas/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/lucas/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+/Users/lucas/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+/Users/lucas/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/bin/scss:13:in `<top (required)>'
+/Users/lucas/.rvm/gems/ruby-2.4.0/bin/scss:22:in `load'
+/Users/lucas/.rvm/gems/ruby-2.4.0/bin/scss:22:in `<main>'
+/Users/lucas/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/lucas/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - content/themes/yno/assets/scss/vno.scss"; }
