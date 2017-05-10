@@ -269,6 +269,16 @@ hr {
 a:hover {
   cursor: pointer; }
 
+.post > *:first-child {
+  margin-top: 3em !important; }
+
+.post h1, .post h2 {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eaecef; }
+
+.post-container {
+  margin-bottom: 5em; }
+
 .post-comments {
   border-top: 1px solid #DDDDDD;
   padding: 60px 0; }
@@ -461,6 +471,7 @@ a:hover {
     border-color: #7b0f19; }
 
 .btn-border-small {
+  display: inline-block;
   border: 1px solid #BF1827;
   border-radius: 20px;
   padding: 6px 8px;
@@ -706,6 +717,8 @@ input[type="tel"] {
     color: #CCCCCC; }
 
 .read-more {
+  overflow: hidden;
+  border-top: 1px solid #DDDDDD;
   margin-bottom: 1em; }
 
 .read-more-item {

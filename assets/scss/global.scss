@@ -307,3 +307,22 @@ hr {
 a:hover {
   cursor:pointer;
 }
+
+// ------------------------------
+// POST STYLES
+// ------------------------------
+
+.post > *:first-child {
+  margin-top: 3em !important;
+}
+
+.post {
+  h1, h2 {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaecef;
+  }
+}
+
+.post-container {
+  margin-bottom: 5em;
+}
