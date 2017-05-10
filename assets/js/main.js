@@ -41,7 +41,7 @@ $(document).ready(function() {
     });
 
     $('.navigation-wrapper .blog-button').click(function() {
-        if ($('.navigation-wrapper').css('display') == "block") {
+        if ($('.btn-mobile-menu').css('display') == "block" && $('.navigation-wrapper').css('display') == "block") {
             $('.navigation-wrapper').toggleClass('animated bounceOutUp');
             $('.navigation-wrapper').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
                 $('.navigation-wrapper').toggleClass('visible animated bounceOutUp');
